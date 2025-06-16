@@ -2,7 +2,7 @@ package lessons;
 
 import lessons.interfaces.IVolante;
 
-public class Passerotto extends Animale implements IVolante {
+public class Passerotto extends AbstractAnimale implements IVolante {
 
     String name;
     String says;

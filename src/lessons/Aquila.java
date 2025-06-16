@@ -2,7 +2,7 @@ package lessons;
 
 import lessons.interfaces.IVolante;
 
-public class Aquila extends Animale implements IVolante {
+public class Aquila extends AbstractAnimale implements IVolante {
 
     String name;
     String says;

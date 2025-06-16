@@ -2,7 +2,7 @@ package lessons;
 
 import lessons.interfaces.INuotante;
 
-public class Delfino extends Animale implements INuotante {
+public class Delfino extends AbstractAnimale implements INuotante {
 
     String name;
     String says;

@@ -1,6 +1,6 @@
 package lessons;
 
-public class Cane extends Animale {
+public class Cane extends AbstractAnimale {
 
     String name;
     String says;
