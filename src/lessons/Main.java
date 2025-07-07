@@ -14,16 +14,34 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Passerotto chip = new Passerotto("chip", "semini", "chirp!");
+        Aquila Pino = new Aquila();
+        Pino.dormi();
+        Pino.mangia();
+        Pino.verso();
+        faiVolare(Pino);
 
-        faiVolare(chip);
+        System.out.println("------------------------------");
 
-        Cane Luna = new Cane("luna", "bau", "cibo per cani");
+        Cane Luna = new Cane();
+        Luna.dormi();
         Luna.mangia();
+        Luna.verso();
 
-        Delfino skipper = new Delfino("Skipper", "squeek", "pesci");
+        System.out.println("------------------------------");
 
-        faiNuotare(skipper);
+        Delfino Skipper = new Delfino();
+        Skipper.dormi();
+        Skipper.mangia();
+        Skipper.verso();
+        faiNuotare(Skipper);
+
+        System.out.println("------------------------------");
+
+        Passerotto Chip = new Passerotto();
+        Chip.dormi();
+        Chip.mangia();
+        Chip.verso();
+        faiVolare(Chip);
     }
 
 }

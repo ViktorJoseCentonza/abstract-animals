@@ -4,24 +4,14 @@ import lessons.interfaces.INuotante;
 
 public class Delfino extends AbstractAnimale implements INuotante {
 
-    String name;
-    String says;
-    String eats;
-
-    public Delfino(String name, String says, String eats) {
-        this.name = name;
-        this.says = says;
-        this.eats = eats;
+    @Override
+    public void verso() {
+        System.out.println("*rumori da delfino*");
     }
 
     @Override
-    void verso() {
-        System.out.println(this.says);
-    }
-
-    @Override
-    void mangia() {
-        System.out.println("mangia: " + this.eats);
+    public void mangia() {
+        System.out.println("presci e crostacei");
     }
 
     @Override

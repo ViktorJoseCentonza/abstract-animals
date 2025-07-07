@@ -9,5 +9,4 @@ public abstract class AbstractAnimale {
     abstract void verso();
 
     abstract void mangia();
-
 }
